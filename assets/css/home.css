@@ -1,0 +1,39 @@
+﻿body{
+	background-color: #F0F2F5;
+}
+.help_line{
+	text-transform: capitalize;
+	background-color: #F17E3A;
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+#top-nav .uk-navbar-container {
+	height: 60px;
+}
+#top-nav .uk-navbar-left>a {
+	padding-bottom: 20px;
+}
+#top-nav .uk-navbar-center {
+	padding-bottom: 20px;
+}
+#top-nav .uk-navbar-nav>li>a {
+	padding-bottom: 20px;
+}
+
+#bottom-navbar .uk-navbar-container {
+	height: 40px;
+}
+#bottom-navbar .uk-container {
+	height: 40px;
+}
+#bottom-navbar .uk-navbar-nav {
+	height: 40px;
+}
+#bottom-navbar .uk-navbar-nav>li>a {
+	padding-bottom: 40px;
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+
