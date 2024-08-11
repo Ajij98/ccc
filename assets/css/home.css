@@ -1,4 +1,4 @@
-﻿body{
+body{
 	background-color: #F0F2F5;
 }
 .help_line{
@@ -7,16 +7,16 @@
 	padding-top: 11px;
 	padding-bottom: 11px;
 }
-#top-nav .uk-navbar-container {
+#top-navbar .uk-navbar-container {
 	height: 60px;
 }
-#top-nav .uk-navbar-left>a {
+#top-navbar .uk-navbar-left>a {
+	padding-bottom: 28px;
+}
+#top-navbar .uk-navbar-center {
 	padding-bottom: 20px;
 }
-#top-nav .uk-navbar-center {
-	padding-bottom: 20px;
-}
-#top-nav .uk-navbar-nav>li>a {
+#top-navbar .uk-navbar-nav>li>a {
 	padding-bottom: 20px;
 }
 
@@ -36,10 +36,16 @@
 	font-size: 15px;
 }
 
-@media(max-width: 900px){
-#bottom-navbar{
-	display: none;
-}
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
