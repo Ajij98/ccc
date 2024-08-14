@@ -12,12 +12,12 @@
 
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.9/dist/css/uikit.min.css" />
-    <!-- Bootstrap v5.3 CSS -->
+    <!-- Bootstrap v5.3.3 CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <!-- Font-awesome-4.7.0 -->
     <link rel="stylesheet" type="text/css" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- Style CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
 </head>
 <body>
@@ -32,14 +32,15 @@
                             <div uk-navbar>
 
                                 <div class="uk-navbar-left">
-                                    <a class="uk-navbar-item uk-logo" href="#" aria-label="Back to Home">Logo</a>
+                                    <a class="uk-navbar-item uk-logo" href="#" aria-label="Back to Home">Grocery</a>
                                 </div>
                                 <div class="uk-navbar-center">
                                      <div class="uk-navbar-item">
                                         <div class="uk-margin">
-                                            <form class="uk-search uk-search-default" style="width: 450px;">
+                                            <form class="uk-search uk-search-default" style="width: 500px;">
+                                                <span class="uk-search-icon" uk-search-icon></span>
                                                 <input class="uk-search-input" type="search" placeholder="Search for products..." aria-label="Search" style="border-radius: 30px;">
-                                                <span class="uk-search-icon-flip" uk-search-icon style="border-left: 1px solid #CACDD0;"></span>
+                                                
                                             </form>
                                         </div>
                                     </div>
@@ -48,7 +49,7 @@
                                     <ul class="uk-navbar-nav">
                                         <li>
                                             <div class="uk-inline mt-3">
-                                                <a href="#" style="text-decoration: none;"><img src="assets/img/nav_icon/help.png"><span style="margin-left: 5px; font-size: 11px; color: #F17E3A;">HELP LINE</span></a>
+                                                <a href="#" style="text-decoration: none;"><img src="assets/img/nav_icon/help.png"><span style="margin-left: 5px; font-size: 11px; color: #F26513;">HELP LINE</span></a>
                                                 <div uk-dropdown style="width: 250px;" delay-hide="200">
                                                     <ul class="uk-nav uk-dropdown-nav">
                                                         <li><a href="#"><i class="fa fa-phone fa-fw" style=""></i> Call Us: +880 1831-144838</a></li>
@@ -63,8 +64,8 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li><a href="#"><img src="assets/img/nav_icon/offer.png" uk-tooltip="title: Offers; pos: bottom"><sup><span class="uk-badge" style="background-color: #55CE60;">3</span></sup></a></li></a></li>
-                                        <li><a href="#"><img src="assets/img/nav_icon/user.png" uk-tooltip="title: Login; pos: bottom" class="img_user"></a></li></a></li>
+                                        <li><a href="#"><img src="assets/img/nav_icon/offer.png" uk-tooltip="title: Offers; pos: top"><sup><span class="uk-badge" style="background-color: #55CE60;">3</span></sup></a></li></a></li>
+                                        <li><a href="#"><img src="assets/img/nav_icon/user.png" uk-tooltip="title: Login; pos: top" class="img_user"></a></li></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -86,7 +87,7 @@
                         <div class="uk-container">
                             <div uk-navbar>
 
-                                <div class="uk-navbar-left" style="background-color: #F17E3A;">
+                                <div class="uk-navbar-left" style="background-color: #F26513;">
                                     <ul class="uk-navbar-nav">
                                         <li>
                                             <a href="#" style=""><img src="assets/img/nav_icon/menu.png" style="margin-right: 20px; margin-left: 20px;">Select Category<span uk-drop-parent-icon style="margin-right: 20px; margin-left: 20px;"></span></a>
@@ -141,37 +142,33 @@
         <div class="uk-container">
             <div class="row">
                 <div class="col-12">
-                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true; autoplay-interval: 3500; pause-on-hover: true;">
 
-    <div class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@l uk-child-width-1-3@m uk-child-width-1-2@s uk-grid">
+    <div class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@l uk-child-width-1-3@m uk-child-width-1-2@s uk-grid uk-grid-small">
         <div>
             <div class="uk-panel">
-                <img src="assets/img/img1.jpg" height="600" alt="">
-                <div class="uk-position-center uk-panel"><h1>1</h1></div>
+                <img src="assets/img/b3.webp" alt="" width="600" height="400" style="border-radius: 5px;">
             </div>
         </div>
         <div>
             <div class="uk-panel">
-                <img src="assets/img/img2.jpg" height="600" alt="">
-                <div class="uk-position-center uk-panel"><h1>2</h1></div>
+                <img src="assets/img/banner(1).webp" alt="" width="600" height="400" style="border-radius: 5px;">
             </div>
         </div>
         <div>
             <div class="uk-panel">
-                <img src="assets/img/img3.jpeg" height="600" alt="">
-                <div class="uk-position-center uk-panel"><h1>3</h1></div>
+                <img src="assets/img/b2.webp" alt="" width="600" height="400" style="border-radius: 5px;">
             </div>
         </div>
         <div>
             <div class="uk-panel">
-                <img src="assets/img/img2.jpg" height="600" alt="">
-                <div class="uk-position-center uk-panel"><h1>4</h1></div>
+                <img src="assets/img/b4.webp" alt="" width="600" height="400" style="border-radius: 5px;">
             </div>
         </div>
     </div>
 
-    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
-    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
+    <a class="uk-position-center-left uk-position-small" href uk-slider-item="previous" style="background-color: rgb(85, 206, 96, 0.3); border-radius: 50%; padding: 4px 13px 4px 13px;"><i class="fa fa-angle-left" style="font-size: 20px;"></i></a>
+    <a class="uk-position-center-right uk-position-small" href uk-slider-item="next"   style="background-color: rgb(85, 206, 96, 0.3); border-radius: 50%; padding: 4px 13px 4px 13px;"><i class="fa fa-angle-right" style="font-size: 20px;"></i></a>
 
 </div>
                 </div>
@@ -183,11 +180,101 @@
 
 
 
+    <!-- Start category section -->
+    <section id="category-section" class="mt-4">
+        <div class="uk-container">
+            <div class="row">
+
+                <h5 class="mt-2 mb-3">Categories</h5>
+
+                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-3">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
+                        <p style="background-color: #fff; border-radius: 4px; padding-top: 10px; padding-bottom: 10px;" class="shadow-sm"><img src="assets/img/nav_icon/sirloin-steak.png" style="border-radius: 4px; margin-right: 20px;" width="45">Meat</p>
+                    </a>
+                </div>  
+
+                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-3">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
+                        <p style="background-color: #fff; border-radius: 4px; padding-top: 10px; padding-bottom: 10px;" class="shadow-sm"><img src="assets/img/nav_icon/tilapia.png" style="border-radius: 4px; margin-right: 20px;" width="45">Fish</p>
+                    </a>
+                </div>
+
+                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-3">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
+                        <p style="background-color: #fff; border-radius: 4px; padding-top: 10px; padding-bottom: 10px;" class="shadow-sm"><img src="assets/img/nav_icon/vegetable (2).png" style="border-radius: 4px; margin-right: 20px;" width="45">Vegetables</p>
+                    </a>
+                </div>
+
+                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-3">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
+                        <p style="background-color: #fff; border-radius: 4px; padding-top: 10px; padding-bottom: 10px;" class="shadow-sm"><img src="assets/img/nav_icon/fruit.png" style="border-radius: 4px; margin-right: 20px;" width="45">Fruits</p>
+                    </a>
+                </div>  
+
+                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-3">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
+                        <p style="background-color: #fff; border-radius: 4px; padding-top: 10px; padding-bottom: 10px;" class="shadow-sm"><img src="assets/img/nav_icon/egg (1).png" style="border-radius: 5px; margin-right: 20px;" width="45">Egg</p>
+                    </a>
+                </div>
+
+                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-3">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
+                        <p style="background-color: #fff; border-radius: 4px; padding-top: 10px; padding-bottom: 10px;" class="shadow-sm"><img src="assets/img/nav_icon/mm.png" style="border-radius: 5px; margin-right: 20px;" width="45">Vegetable</p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End category section -->
+
+
+
+
+
+
+    <br><br><br><br><br><br><br>
+
+
+
+    <!-- Start category section -->
+    <section id="category-section-sm" class="mt-4">
+        <div class="uk-container">
+            <div class="row">
+
+                <h5 class="mt-2 mb-3">Categories</h5>
+
+                <div class="col-6">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
+                        <p style="background-color: #fff; border-radius: 4px;" class="shadow-sm"><img src="assets/img/nav_icon/fff.png">Fish</p>
+                    </a>
+                </div>  
+
+                <div class="col-6">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
+                        <p style="background-color: #fff; border-radius: 4px;" class="shadow-sm"><img src="assets/img/nav_icon/fff.png">Fish</p>
+                    </a>
+                </div>
+
+                <div class="col-6">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
+                        <p style="background-color: #fff; border-radius: 4px;" class="shadow-sm"><img src="assets/img/nav_icon/fff.png">Vegetable</p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End category section -->
+
+
+
+
 
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.9/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.9/dist/js/uikit-icons.min.js"></script>
-    <!-- Bootstrap v5.3 JS -->
+    <!-- Bootstrap v5.3.3 JS -->
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
