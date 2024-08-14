@@ -37,6 +37,29 @@ body{
 }
 
 
+#category-section a:hover{
+	color: #55CE60;
+}
+
+
+
+
+
+@media(max-width: 575px){
+
+	#category-section img {
+		width: 24px;
+		margin-right: 10px;
+		border-radius: 2px;
+	}
+
+	#category-section p{
+		font-size: 12px;
+	}
+
+
+}
+
 
 
 
