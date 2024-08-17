@@ -50,7 +50,7 @@
                                         <li>
                                             <div class="uk-inline mt-3">
                                                 <a href="#" style="text-decoration: none;"><img src="assets/img/nav_icon/help.png"><span style="margin-left: 5px; font-size: 11px; color: #F26513;">HELP LINE</span></a>
-                                                <div uk-dropdown style="width: 250px;" delay-hide="200">
+                                                <div uk-dropdown="animation: slide-top; animate-out: true; duration: 700" style="width: 250px; border-radius: 3px;">
                                                     <ul class="uk-nav uk-dropdown-nav">
                                                         <li><a href="#"><i class="fa fa-phone fa-fw" style=""></i> Call Us: +880 1831-144838</a></li>
                                                         <hr class="my-2">
@@ -90,13 +90,137 @@
                                 <div class="uk-navbar-left" style="background-color: #F26513;">
                                     <ul class="uk-navbar-nav">
                                         <li>
-                                            <a href="#" style=""><img src="assets/img/nav_icon/menu.png" style="margin-right: 20px; margin-left: 20px;">Select Category<span uk-drop-parent-icon style="margin-right: 20px; margin-left: 20px;"></span></a>
-                                            <div class="uk-navbar-dropdown" uk-drop="mode: click">
-                                                <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                    <li class="uk-active"><a href="#">Active</a></li>
-                                                    <li><a href="#">Item</a></li>
-                                                    <li><a href="#">Item</a></li>
-                                                </ul>
+                                            <div class="uk-inline" style="margin-top: 6px;">
+                                                <a href="#" style=" text-decoration: none; color: #fff;"><img src="assets/img/nav_icon/menu.png" style="margin-right: 20px; margin-left: 20px;">Select Category<span uk-drop-parent-icon style="margin-right: 20px; margin-left: 10px;"></span></a>
+                                                <div class="uk-navbar-dropdown" uk-drop="mode: click; animation: slide-top; animate-out: true; duration: 700" delay-hide="100" style="width: 280px; border-radius: 3px;">
+                                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                        
+
+                                                        <div>
+    <ul class="uk-nav-default" uk-nav="multiple: true">
+        <li class="uk-parent">
+            <a href="#" style="font-size: 15px; margin-bottom: 15px;"><img src="assets/img/nav_icon/mmi.png" style="margin-right: 12px;">Meat <span uk-nav-parent-icon></span></a>
+            <ul class="uk-nav-sub" style="margin-bottom: 10px; margin-top: 0px; padding-top: 10px; border-radius: 3px; background-color: #F7F7F7;">
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Beef</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Chicken</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Mutton</a></li>
+            </ul>
+        </li>
+        
+        <li class="uk-parent">
+            <a href="#" style="font-size: 15px; margin-bottom: 15px;"><img src="assets/img/nav_icon/fi (2).png" style="margin-right: 12px;">Fish <span uk-nav-parent-icon></span></a>
+            <ul class="uk-nav-sub" style="margin-bottom: 10px; margin-top: 0px; padding-top: 10px; border-radius: 3px; background-color: #F7F7F7;">
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Pond Fish (পুকুরের মাছ)</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Sea Fish (সাগরের মাছ)</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Dry Fish (শুঁটকি মাছ)</a></li>
+            </ul>
+        </li>
+        
+        <li class="uk-parent">
+            <a href="#" style="font-size: 15px; margin-bottom: 15px;"><img src="assets/img/nav_icon/cabbage.png" style="margin-right: 12px;">Vegetable <span uk-nav-parent-icon></span></a>
+            <ul class="uk-nav-sub" style="margin-bottom: 10px; margin-top: 0px; padding-top: 10px; border-radius: 3px; background-color: #F7F7F7;">
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Beef</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Chicken</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Mutton</a></li>
+            </ul>
+        </li>
+    
+        <li class="uk-parent">
+            <a href="#" style="font-size: 15px; margin-bottom: 15px;"><img src="assets/img/nav_icon/wi.png" style="margin-right: 12px;">Fruits <span uk-nav-parent-icon></span></a>
+            <ul class="uk-nav-sub" style="margin-bottom: 10px; margin-top: 0px; padding-top: 10px; border-radius: 3px; background-color: #F7F7F7;">
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Beef</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Chicken</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Mutton</a></li>
+            </ul>
+        </li>
+
+        <li class="uk-parent">
+            <a href="#" style="font-size: 15px; margin-bottom: 15px;"><img src="assets/img/nav_icon/ei.png" style="margin-right: 12px;">Egg <span uk-nav-parent-icon></span></a>
+            <ul class="uk-nav-sub" style="margin-bottom: 10px; margin-top: 0px; padding-top: 10px; border-radius: 3px; background-color: #F7F7F7;">
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Beef</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Chicken</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Mutton</a></li>
+            </ul>
+        </li>
+
+        <li class="uk-parent">
+            <a href="#" style="font-size: 15px; margin-bottom: 15px;"><img src="assets/img/nav_icon/snack.png" style="margin-right: 12px;">Snacks <span uk-nav-parent-icon></span></a>
+            <ul class="uk-nav-sub" style="margin-bottom: 10px; margin-top: 0px; padding-top: 10px; border-radius: 3px; background-color: #F7F7F7;">
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Beef</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Chicken</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Mutton</a></li>
+            </ul>
+        </li>
+
+        <li class="uk-parent">
+            <a href="#" style="font-size: 15px; margin-bottom: 15px;"><img src="assets/img/nav_icon/beverage.png" style="margin-right: 12px;">Beverages <span uk-nav-parent-icon></span></a>
+            <ul class="uk-nav-sub" style="margin-bottom: 10px; margin-top: 0px; padding-top: 10px; border-radius: 3px; background-color: #F7F7F7;">
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Beef</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Chicken</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Mutton</a></li>
+            </ul>
+        </li>
+
+        <li class="uk-parent">
+            <a href="#" style="font-size: 15px; margin-bottom: 15px;"><img src="assets/img/nav_icon/snack.png" style="margin-right: 12px;">Snacks <span uk-nav-parent-icon></span></a>
+            <ul class="uk-nav-sub" style="margin-bottom: 10px; margin-top: 0px; padding-top: 10px; border-radius: 3px; background-color: #F7F7F7;">
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Beef</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Chicken</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Mutton</a></li>
+            </ul>
+        </li>
+
+        <li class="uk-parent">
+            <a href="#" style="font-size: 15px; margin-bottom: 15px;"><img src="assets/img/nav_icon/beverage.png" style="margin-right: 12px;">Beverages <span uk-nav-parent-icon></span></a>
+            <ul class="uk-nav-sub" style="margin-bottom: 10px; margin-top: 0px; padding-top: 10px; border-radius: 3px; background-color: #F7F7F7;">
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Beef</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Chicken</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Mutton</a></li>
+            </ul>
+        </li>
+
+        <li class="uk-parent">
+            <a href="#" style="font-size: 15px; margin-bottom: 15px;"><img src="assets/img/nav_icon/snack.png" style="margin-right: 12px;">Snacks <span uk-nav-parent-icon></span></a>
+            <ul class="uk-nav-sub" style="margin-bottom: 10px; margin-top: 0px; padding-top: 10px; border-radius: 3px; background-color: #F7F7F7;">
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Beef</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Chicken</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Mutton</a></li>
+            </ul>
+        </li>
+
+        <li class="uk-parent">
+            <a href="#" style="font-size: 15px; margin-bottom: 15px;"><img src="assets/img/nav_icon/beverage.png" style="margin-right: 12px;">Beverages <span uk-nav-parent-icon></span></a>
+            <ul class="uk-nav-sub" style="margin-bottom: 10px; margin-top: 0px; padding-top: 10px; border-radius: 3px; background-color: #F7F7F7;">
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Beef</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Chicken</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Mutton</a></li>
+            </ul>
+        </li>
+
+        <li class="uk-parent">
+            <a href="#" style="font-size: 15px; margin-bottom: 15px;"><img src="assets/img/nav_icon/snack.png" style="margin-right: 12px;">Snacks <span uk-nav-parent-icon></span></a>
+            <ul class="uk-nav-sub" style="margin-bottom: 10px; margin-top: 0px; padding-top: 10px; border-radius: 3px; background-color: #F7F7F7;">
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Beef</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Chicken</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Mutton</a></li>
+            </ul>
+        </li>
+
+        <li class="uk-parent">
+            <a href="#" style="font-size: 15px; margin-bottom: 15px;"><img src="assets/img/nav_icon/beverage.png" style="margin-right: 12px;">Beverages <span uk-nav-parent-icon></span></a>
+            <ul class="uk-nav-sub" style="margin-bottom: 10px; margin-top: 0px; padding-top: 10px; border-radius: 3px; background-color: #F7F7F7;">
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Beef</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Chicken</a></li>
+                <li><a href="#" style="font-size: 15px; margin-left: 20px; margin-bottom: 10px;"><i class="fa fa-dot-circle-o fa-fw"></i> Mutton</a></li>
+            </ul>
+        </li>
+        
+    </ul>
+</div>
+
+
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </li>
                                     </ul>
@@ -187,85 +311,53 @@
 
                 <h5 class="mt-2 mb-3">Categories</h5>
 
-                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-3">
-                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
-                        <p style="background-color: #fff; border-radius: 4px; padding-top: 10px; padding-bottom: 10px;" class="shadow-sm"><img src="assets/img/nav_icon/sirloin-steak.png" style="border-radius: 4px; margin-right: 20px;" width="45">Meat</p>
+                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-2">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #000;">
+                        <p style="background-color: #fff; border-radius: 4px; padding-top: 15px; padding-bottom: 15px; border: 1px solid #f4ca4b;" class="shadow-sm"><img src="assets/img/nav_icon/m32.png" style="margin-left: 20px; margin-right: 15px;">Meat</p>
                     </a>
                 </div>  
 
-                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-3">
-                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
-                        <p style="background-color: #fff; border-radius: 4px; padding-top: 10px; padding-bottom: 10px;" class="shadow-sm"><img src="assets/img/nav_icon/tilapia.png" style="border-radius: 4px; margin-right: 20px;" width="45">Fish</p>
+                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-2">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #000;">
+                        <p style="background-color: #fff; border-radius: 4px; padding-top: 15px; padding-bottom: 15px; border: 1px solid #f4ca4b;" class="shadow-sm"><img src="assets/img/nav_icon/f32.png" style="margin-left: 20px; margin-right: 15px;">Fish</p>
                     </a>
                 </div>
 
-                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-3">
-                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
-                        <p style="background-color: #fff; border-radius: 4px; padding-top: 10px; padding-bottom: 10px;" class="shadow-sm"><img src="assets/img/nav_icon/vegetable (2).png" style="border-radius: 4px; margin-right: 20px;" width="45">Vegetables</p>
+                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-2">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #000;">
+                        <p style="background-color: #fff; border-radius: 4px; padding-top: 15px; padding-bottom: 15px; border: 1px solid #f4ca4b;" class="shadow-sm"><img src="assets/img/nav_icon/v3212.png" style="margin-left: 20px; margin-right: 15px;">Vegetables</p>
                     </a>
                 </div>
 
-                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-3">
-                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
-                        <p style="background-color: #fff; border-radius: 4px; padding-top: 10px; padding-bottom: 10px;" class="shadow-sm"><img src="assets/img/nav_icon/fruit.png" style="border-radius: 4px; margin-right: 20px;" width="45">Fruits</p>
+                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-2">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #000;">
+                        <p style="background-color: #fff; border-radius: 4px; padding-top: 15px; padding-bottom: 15px; border: 1px solid #f4ca4b;" class="shadow-sm"><img src="assets/img/nav_icon/fr322.png" style="margin-left: 20px; margin-right: 15px;">Fruits</p>
                     </a>
                 </div>  
 
-                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-3">
-                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
-                        <p style="background-color: #fff; border-radius: 4px; padding-top: 10px; padding-bottom: 10px;" class="shadow-sm"><img src="assets/img/nav_icon/egg (1).png" style="border-radius: 5px; margin-right: 20px;" width="45">Egg</p>
+                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-2">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #000;">
+                        <p style="background-color: #fff; border-radius: 4px; padding-top: 15px; padding-bottom: 15px; border: 1px solid #f4ca4b;" class="shadow-sm"><img src="assets/img/nav_icon/e321.png" style="margin-left: 20px; margin-right: 15px;">Egg</p>
                     </a>
                 </div>
 
-                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-3">
-                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
-                        <p style="background-color: #fff; border-radius: 4px; padding-top: 10px; padding-bottom: 10px;" class="shadow-sm"><img src="assets/img/nav_icon/mm.png" style="border-radius: 5px; margin-right: 20px;" width="45">Vegetable</p>
+                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-2">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #000;">
+                        <p style="background-color: #fff; border-radius: 4px; padding-top: 15px; padding-bottom: 15px; border: 1px solid #f4ca4b;" class="shadow-sm"><img src="assets/img/nav_icon/s321.png" style="margin-left: 20px; margin-right: 15px;">Snacks</p>
                     </a>
                 </div>
+
+                <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 mb-2">
+                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #000;">
+                        <p style="background-color: #fff; border-radius: 4px; padding-top: 15px; padding-bottom: 15px; border: 1px solid #f4ca4b;" class="shadow-sm"><img src="assets/img/nav_icon/b3232.png" style="margin-left: 20px; margin-right: 15px;">Beverages</p>
+                    </a>
+                </div>  
 
             </div>
         </div>
     </section>
     <!-- End category section -->
 
-
-
-
-
-
-    <br><br><br><br><br><br><br>
-
-
-
-    <!-- Start category section -->
-    <section id="category-section-sm" class="mt-4">
-        <div class="uk-container">
-            <div class="row">
-
-                <h5 class="mt-2 mb-3">Categories</h5>
-
-                <div class="col-6">
-                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
-                        <p style="background-color: #fff; border-radius: 4px;" class="shadow-sm"><img src="assets/img/nav_icon/fff.png">Fish</p>
-                    </a>
-                </div>  
-
-                <div class="col-6">
-                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
-                        <p style="background-color: #fff; border-radius: 4px;" class="shadow-sm"><img src="assets/img/nav_icon/fff.png">Fish</p>
-                    </a>
-                </div>
-
-                <div class="col-6">
-                    <a href="#" class="" style="text-decoration: none; text-decoration: none; font-size: 15px; color: #676767;">
-                        <p style="background-color: #fff; border-radius: 4px;" class="shadow-sm"><img src="assets/img/nav_icon/fff.png">Vegetable</p>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- End category section -->
 
 
 
