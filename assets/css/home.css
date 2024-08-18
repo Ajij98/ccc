@@ -65,16 +65,16 @@ body{
 @media(max-width: 575px){
 
 	#category-section img {
-		width: 20px;
-		margin-left: 10px;
-		margin-right: 5px;
+		width: 24px;
+		margin-left: 15px;
+		margin-right: 10px;
 		border-radius: 2px;
 	}
 
 	#category-section p{
 		font-size: 11px;
-		padding-top: 10px; 
-		padding-bottom: 10px; 
+		padding-top: 15px; 
+		padding-bottom: 15px; 
 		font-weight: 500;
 	}
 
