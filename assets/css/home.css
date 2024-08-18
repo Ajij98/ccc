@@ -48,13 +48,13 @@ body{
 @media(max-width: 575px){
 
 	#category-section img {
-		width: 100px;
+		width: 24px;
 		margin-right: 10px;
 		border-radius: 2px;
 	}
 
 	#category-section p{
-		font-size: 5px;
+		font-size: 10px;
 	}
 
 
