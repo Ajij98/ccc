@@ -48,7 +48,7 @@ body{
 @media(max-width: 575px){
 
 	#category-section img {
-		width: 20px;
+		width: 100px;
 		margin-right: 10px;
 		border-radius: 2px;
 	}
