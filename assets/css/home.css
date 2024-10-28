@@ -53,14 +53,13 @@ body{
 	border-radius: 4px; 
 	padding-top: 15px; 
 	padding-bottom: 15px; 
-	border-left: 2px solid #f4ca4b;
+	border-left: 2px solid #FFC107;
 	font-size: 13px;
 	font-weight: 500;
 }
 
-
 #category-section p:hover{
-	color: #FFA012;
+	color: #F99B0C;
 }	
 
 
