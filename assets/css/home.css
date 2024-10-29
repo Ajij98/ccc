@@ -67,6 +67,8 @@ body{
 
 
 
+
+
 @media(max-width: 575px){
 
 	#category-section img {
@@ -85,6 +87,32 @@ body{
 
 
 }
+
+
+
+@media(max-width: 400px){
+
+	#allproducts-section .uk-button{
+		padding-left:5px;
+		padding-right:5px;
+		margin: 0px;
+		font-size: 12px;
+	}
+
+	#allproducts-section .uk-card{
+		width: 10rem;
+	}
+
+	#allproducts-section h6{
+		font-size: 13px;
+	}
+
+	#allproducts-section .uk-label{
+		font-size: 12px;
+	}
+
+}
+
 
 
 
