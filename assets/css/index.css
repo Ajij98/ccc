@@ -139,6 +139,14 @@ body{
 		font-size: 12px;
 	}
 
+
+	#category-section span{
+		font-size: 12px;
+		padding-top: 15px; 
+		padding-bottom: 15px; 
+		font-weight: 500;
+	}
+
 }
 
 
