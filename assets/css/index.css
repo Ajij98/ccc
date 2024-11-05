@@ -44,8 +44,6 @@ body{
 }
 #category-section img {
 	width: 40px;
-	margin-right: 15px;
-	margin-left: 20px;
 }
 
 #category-section p{
@@ -53,7 +51,7 @@ body{
 	border-radius: 4px; 
 	padding-top: 15px; 
 	padding-bottom: 15px; 
-	border-left: 2px solid #FFC107;
+	border-top: 2px solid #FFC107;
 	font-size: 13px;
 	font-weight: 500;
 }
@@ -138,13 +136,6 @@ body{
 	#newproduct-section .uk-label{
 		font-size: 12px;
 	}
-
-
-	#category-section span{
-		font-size: 10px;
-		font-weight: 500;
-	}
-
 }
 
 
