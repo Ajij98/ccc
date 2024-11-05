@@ -43,7 +43,7 @@ body{
 	color: #696969;
 }
 #category-section img {
-	width: 40px;
+	width: 45px;
 }
 
 #category-section p{
@@ -51,7 +51,7 @@ body{
 	border-radius: 4px; 
 	padding-top: 15px; 
 	padding-bottom: 15px; 
-	border-top: 2px solid #FFC107;
+	border-top: 1px solid #FFC107;
 	font-size: 13px;
 	font-weight: 500;
 }
@@ -70,7 +70,7 @@ body{
 @media(max-width: 575px){
 
 	#category-section img {
-		width: 24px;
+		width: 40px;
 		margin-left: 15px;
 		margin-right: 10px;
 		border-radius: 2px;
@@ -86,6 +86,8 @@ body{
 
 }
 
+
+
 #allproducts-section .uk-card{
 		width: 15rem;
 }
@@ -97,6 +99,18 @@ body{
 
 
 @media(max-width: 400px){
+
+
+	#category-section img {
+		width: 30px;
+		margin-left: 15px;
+		margin-right: 10px;
+		border-radius: 2px;
+	}
+	#category-section .shadow-sm {
+		width: 100px;
+	}
+
 
 	#allproducts-section .uk-button{
 		padding-left:5px;
