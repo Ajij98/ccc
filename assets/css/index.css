@@ -102,14 +102,12 @@ body{
 
 
 	#category-section img {
-		width: 30px;
+		width: 35px;
 		margin-left: 15px;
 		margin-right: 10px;
 		border-radius: 2px;
 	}
-	#category-section .shadow-sm {
-		width: 100px;
-	}
+	
 
 
 	#allproducts-section .uk-button{
