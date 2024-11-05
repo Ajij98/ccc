@@ -83,6 +83,10 @@ body{
 		font-weight: 500;
 	}
 
+	#bottom-navbar .nav-middle{
+		display: none;
+	}
+
 
 }
 
@@ -102,7 +106,7 @@ body{
 
 
 	#category-section img {
-		width: 40px;
+		width: 35px;
 		margin-left: 15px;
 		margin-right: 10px;
 		border-radius: 2px;
