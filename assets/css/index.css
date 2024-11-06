@@ -152,6 +152,14 @@ body{
 	#newproduct-section .uk-label{
 		font-size: 12px;
 	}
+
+
+	#brand-section .uk-button{
+		padding-left:5px;
+		padding-right:5px;
+		margin: 0px;
+		font-size: 12px;
+	}
 }
 
 
