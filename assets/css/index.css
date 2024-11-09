@@ -160,6 +160,10 @@ body{
 		margin: 0px;
 		font-size: 12px;
 	}
+
+	#footer-bottom div{
+		font-size: 10px;
+	}
 }
 
 
