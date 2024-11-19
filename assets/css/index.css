@@ -88,6 +88,10 @@ body{
 	}
 
 
+	#top-navbar .uk-navbar-center form {
+		display: none;
+	}
+
 }
 
 
