@@ -8,7 +8,7 @@ body{
 	padding-bottom: 11px;
 }
 #top-navbar .uk-navbar-container {
-	height: 60px;
+	height: 65px;
 }
 #top-navbar .uk-navbar-left>a {
 	padding-bottom: 28px;
@@ -93,7 +93,7 @@ body{
 	}
 
 	.top-call{
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 }
