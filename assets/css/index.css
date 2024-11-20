@@ -94,6 +94,12 @@ body{
 
 	.top-call{
 		font-size: 14px;
+		
+	}
+
+
+	#bottom-navbar .uk-navbar-right img {
+		width: 24px;
 	}
 
 }
