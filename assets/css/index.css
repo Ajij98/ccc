@@ -36,6 +36,10 @@ body{
 	font-size: 13px;
 }
 
+#bottom-navbar .uk-navbar-right>ul>li {
+		margin-top: 10px;
+	}
+
 
 
 #category-section a {
@@ -100,6 +104,10 @@ body{
 
 	#bottom-navbar .uk-navbar-right img {
 		width: 24px;
+	}
+
+	#bottom-navbar .uk-navbar-right>ul>li {
+		margin-top: 15px;
 	}
 
 }
