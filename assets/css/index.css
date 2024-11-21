@@ -118,9 +118,7 @@ body{
 @media(max-width: 400px){
 
 
-	#category-section img {
-		width: 55px;
-	}
+	
 	#category-section p{
 		font-size: 14px;
 	}
