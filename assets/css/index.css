@@ -65,16 +65,11 @@ body{
 @media(max-width: 575px){
 
 	#category-section img {
-		width: 40px;
-		margin-left: 15px;
-		margin-right: 10px;
-		border-radius: 2px;
+		width: 45px;
 	}
 
 	#category-section p{
 		font-size: 14px;
-		padding-top: 15px; 
-		padding-bottom: 15px; 
 		font-weight: 500;
 	}
 
@@ -120,9 +115,6 @@ body{
 
 	#category-section img {
 		width: 45px;
-		margin-left: 15px;
-		margin-right: 10px;
-		border-radius: 2px;
 	}
 	
 
