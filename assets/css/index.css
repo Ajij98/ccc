@@ -64,14 +64,19 @@ body{
 
 @media(max-width: 575px){
 
-	#category-section img {
-		width: 45px;
+	/*#category-section img {
+		width: 40px;
+		margin-left: 15px;
+		margin-right: 10px;
+		border-radius: 2px;
 	}
 
 	#category-section p{
-		font-size: 14px;
+		font-size: 12px;
+		padding-top: 15px; 
+		padding-bottom: 15px; 
 		font-weight: 500;
-	}
+	}*/
 
 	#bottom-navbar .nav-middle{
 		display: none;
@@ -114,7 +119,10 @@ body{
 
 
 	#category-section img {
-		width: 45px;
+		width: 55px;
+	}
+	#category-section p{
+		font-size: 14px;
 	}
 	
 
