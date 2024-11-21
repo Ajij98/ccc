@@ -119,8 +119,11 @@ body{
 
 
 	
+	#category-section img {
+		width: 55px;
+	}
 	#category-section p{
-		font-size: 14px;
+		font-size: 15px;
 	}
 	
 
