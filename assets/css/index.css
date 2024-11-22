@@ -116,12 +116,6 @@ body{
 
 
 @media(max-width: 400px){
-
-
-	
-	#category-section img {
-		width: 64px;
-	}
 	#category-section p{
 		font-size: 15px;
 	}
