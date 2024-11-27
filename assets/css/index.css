@@ -56,6 +56,11 @@ body{
 }	
 
 
+#categoryall-section .uk-card{
+		font-size: 15px;
+}
+
+
 
 
 
@@ -116,6 +121,11 @@ body{
 
 
 @media(max-width: 400px){
+
+
+	#category-section img {
+		width: 55px;
+	}
 	#category-section p{
 		font-size: 15px;
 	}
@@ -175,6 +185,18 @@ body{
 
 	#footer-section .footer-bottom span{
 		font-size: 12px;
+	}
+
+
+	#categoryall-section .uk-card{
+		font-size: 14px;
+	}
+	#categorynew-section .uk-card{
+		font-size: 14px;
+	}
+
+	#product-section .discount-label{
+		width: 20px;
 	}
 }
 
