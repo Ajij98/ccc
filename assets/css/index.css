@@ -61,6 +61,11 @@ body{
 }
 
 
+#allproducts-section form{
+	display: none;
+}
+
+
 
 
 
@@ -104,6 +109,14 @@ body{
 
 	#bottom-navbar .uk-navbar-right>ul>li {
 		margin-top: 13px;
+	}
+
+	#breadcrumb-section form{
+		display: none;
+	}
+
+	#allproducts-section form{
+		display: block;
 	}
 
 }
