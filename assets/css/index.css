@@ -116,7 +116,7 @@ body{
 	}
 
 	#allproducts-section form{
-		display: block;
+		display: inline;
 	}
 
 }
